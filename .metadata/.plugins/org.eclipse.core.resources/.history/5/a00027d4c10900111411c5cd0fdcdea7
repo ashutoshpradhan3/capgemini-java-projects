@@ -1,0 +1,45 @@
+package com.capg.shadow.service;
+
+import com.capg.shadow.bean.BankBean;
+import com.capg.shadow.dao.BankConnnectionDao;
+import com.capg.shadow.dao.BankDao;
+
+public class BankService {
+
+    BankDao dao = new BankConnnectionDao();
+
+    public void createAccount(int accNo, String name, long mobile, double balance) {
+        BankBean bean = new BankBean(accNo, name, mobile, balance);
+        dao.createAccount(bean);
+        dao.addTransaction(accNo, "Account Created with balance " + balance);
+    }
+
+    public double showBalance(int accNo) {
+        return dao.findAccount(accNo).getBalance();
+    }
+
+    public void deposit(int accNo, double amount) {
+        BankBean bean = dao.findAccount(accNo);
+        bean.setBalance(bean.getBalance() + amount);
+        dao.updateAccount(bean);
+        dao.addTransaction(accNo, "Deposited: " + amount);
+    }
+
+    public void withdraw(int accNo, double amount) {
+        BankBean bean = dao.findAccount(accNo);
+        if(bean.getBalance() >= amount) {
+            bean.setBalance(bean.getBalance() - amount);
+            dao.updateAccount(bean);
+            dao.addTransaction(accNo, "Withdrawn: " + amount);
+        } else {
+            System.out.println("Insufficient Balance");
+        }
+    }
+
+    public void fundTransfer(int fromAcc, int toAcc, double amount) {
+        withdraw(fromAcc, amount);
+        deposit(toAcc, amount);
+        dao.addTransaction(fromAcc, "Transferred " + amount + " to " + toAcc);
+        dao.addTransaction(toAcc, "Received " + amount + " from " + fromAcc);
+    }
+}

@@ -1,0 +1,5 @@
+package com.capg.shadow.util;
+
+public class HibernateUtil {
+
+}

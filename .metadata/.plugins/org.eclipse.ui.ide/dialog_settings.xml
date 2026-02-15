@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="540"/>
+		<item key="DIALOG_HEIGHT" value="367"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate07_JPA_Emp_CURD_Oracle"/>
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate05_Layers_CURD"/>
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate06_JPAStarter-Oracle"/>
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate04a_Annotations"/>
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate04_Annotations"/>
+			<item value="/Users/ashutoshpradhan/Desktop/LA01-BookLayers-JDBC_Oracle"/>
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate03_CURD_Oracle"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+		<section name="ExternalProjectImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="427"/>
+			<item key="DIALOG_Y_ORIGIN" value="127"/>
+			<item key="DIALOG_WIDTH" value="586"/>
+			<item key="DIALOG_HEIGHT" value="687"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+</section>

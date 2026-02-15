@@ -1,0 +1,5 @@
+package com.capg.shadow.dao;
+
+public class BankDao {
+
+}

@@ -1,0 +1,11 @@
+package com.capg.shadow.dao;
+
+import com.capg.shadow.bean.BankBean;
+
+public interface BankDao {
+
+    void createAccount(BankBean bean);
+    BankBean findAccount(int accNo);
+    void updateAccount(BankBean bean);
+    void addTransaction(int accNo, String message);
+}
