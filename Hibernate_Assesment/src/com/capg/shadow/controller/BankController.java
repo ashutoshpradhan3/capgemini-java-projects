@@ -1,0 +1,77 @@
+package com.capg.shadow.controller;
+
+import java.util.Scanner;
+import com.capg.shadow.service.BankService;
+
+public class BankController {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        BankService service = new BankService();
+
+        while(true) {
+            System.out.println("1. Create Account");
+            System.out.println("2. Show Balance");
+            System.out.println("3. Deposit");
+            System.out.println("4. Withdraw");
+            System.out.println("5. Fund Transfer");
+            System.out.println("6. Print Transactions");
+            System.out.println("7. Exit");
+            System.out.print("Enter choice: ");
+
+            int choice = sc.nextInt();
+
+            switch(choice) {
+
+                case 1:
+                    System.out.print("Account No: ");
+                    int acc = sc.nextInt();
+                    System.out.print("Name: ");
+                    String name = sc.next();
+                    System.out.print("Mobile: ");
+                    long mob = sc.nextLong();
+                    System.out.print("Initial Balance: ");
+                    double bal = sc.nextDouble();
+                    service.createAccount(acc, name, mob, bal);
+                    break;
+
+                case 2:
+                    System.out.print("Account No: ");
+                    System.out.println("Balance: " + service.showBalance(sc.nextInt()));
+                    break;
+
+                case 3:
+                    System.out.print("Account No: ");
+                    acc = sc.nextInt();
+                    System.out.print("Amount: ");
+                    service.deposit(acc, sc.nextDouble());
+                    break;
+
+                case 4:
+                    System.out.print("Account No: ");
+                    acc = sc.nextInt();
+                    System.out.print("Amount: ");
+                    service.withdraw(acc, sc.nextDouble());
+                    break;
+
+                case 5:
+                    System.out.print("From Account: ");
+                    int from = sc.nextInt();
+                    System.out.print("To Account: ");
+                    int to = sc.nextInt();
+                    System.out.print("Amount: ");
+                    service.fundTransfer(from, to, sc.nextDouble());
+                    break;
+
+                case 6:
+                    System.out.print("Account No: ");
+                    service.printTransactions(sc.nextInt());
+                    break;
+
+                case 7:
+                    System.exit(0);
+            }
+        }
+    }
+}
