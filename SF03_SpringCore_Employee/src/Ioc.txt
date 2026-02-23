@@ -1,0 +1,10 @@
+IOC(Inversion Of controller):
+Giving control to th container to get and instance of the object is called inversion of controller.
+Means instead of you are creating an object using the new operator, let the constainer do that for you.
+
+DI(Dependency Injection):
+Way of injecting properties to an object is called Dependency Injection
+Spring Framework using two types Dependecy injections
+
+1. Constructor Injection
+2. Setter Injection

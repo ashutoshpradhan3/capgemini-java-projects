@@ -13,6 +13,12 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate11_JPAManyToManyBI"/>
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate10_JPAOneToManyBI"/>
+			<item value="/Users/ashutoshpradhan/Desktop/SF04-Spring-with-DAO"/>
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate09_JPAOneToOneBI"/>
+			<item value="/Users/ashutoshpradhan/Desktop/Hibernate08_JPAOneToOneUni"/>
+			<item value="/Users/ashutoshpradhan/Desktop/SF01_TightlyCoupling"/>
 			<item value="/Users/ashutoshpradhan/Desktop/Hibernate07_JPA_Emp_CURD_Oracle"/>
 			<item value="/Users/ashutoshpradhan/Desktop/Hibernate05_Layers_CURD"/>
 			<item value="/Users/ashutoshpradhan/Desktop/Hibernate06_JPAStarter-Oracle"/>
@@ -31,5 +37,13 @@
 			<item key="DIALOG_HEIGHT" value="687"/>
 			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 		</section>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="349"/>
+		<item key="DIALOG_Y_ORIGIN" value="279"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
 	</section>
 </section>

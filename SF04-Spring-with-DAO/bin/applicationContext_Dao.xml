@@ -1,0 +1,35 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>    <!-- Step 7 -->
+<bean id="dataSourceRam"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName">     <!-- Step 8 -->
+			<value>com.mysql.cj.jdbc.Driver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:mysql://localhost:3306/capg</value>
+		</property>
+		<property name="username">
+			<value>root</value>
+		</property>
+		<property name="password">
+			<value>Ashu1234@@</value>
+		</property>
+	</bean>
+	           <!-- Step 4 -->        <!-- Step 9 -->
+	 <bean id="accountDao" class="AccountDaoImpl"  >
+		 <property name="dataSource">   <!-- Step 5   dataSource=dataSourceRam  -->
+			<ref bean="dataSourceRam" />  <!-- Step 6 -->
+		</property> 
+	</bean>  	
+	
+	
+	
+	
+	
+	
+	
+	<!-- dataSource  : whants data base connection  -->
+	
+	
+	
+</beans>
