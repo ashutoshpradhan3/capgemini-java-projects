@@ -2,7 +2,6 @@ INDEX VERSION 1.134+/Users/ashutoshpradhan/Desktop/Capgemini-Training/All-Capg-W
 1241059035.index
 137429577.index
 3562651370.index
-4051270478.index
 3043628245.index
 2593684133.index
 3530408259.index
@@ -14,7 +13,6 @@ INDEX VERSION 1.134+/Users/ashutoshpradhan/Desktop/Capgemini-Training/All-Capg-W
 593540527.index
 1282958720.index
 180593079.index
-4091702570.index
 179599268.index
 632254071.index
 2991021185.index
@@ -23,7 +21,6 @@ INDEX VERSION 1.134+/Users/ashutoshpradhan/Desktop/Capgemini-Training/All-Capg-W
 2967839217.index
 476121243.index
 1016224962.index
-2373188984.index
 1846700271.index
 527102985.index
 2139614653.index
@@ -36,14 +33,14 @@ INDEX VERSION 1.134+/Users/ashutoshpradhan/Desktop/Capgemini-Training/All-Capg-W
 1812885951.index
 3582298656.index
 2950939692.index
+92385446.index
 3343106438.index
-958504138.index
 2225104966.index
 3871928816.index
 2661265540.index
-3410178696.index
+958504138.index
 1010672795.index
-92385446.index
+3410178696.index
 1405885355.index
 372004007.index
 2683124236.index
@@ -57,7 +54,6 @@ INDEX VERSION 1.134+/Users/ashutoshpradhan/Desktop/Capgemini-Training/All-Capg-W
 1865797976.index
 660774352.index
 1501853946.index
-1674720738.index
 2971283185.index
 59011472.index
 2873249408.index
